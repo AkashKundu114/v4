@@ -41,10 +41,10 @@ const Head = ({ title, description, image }) => {
   };
 
   return (
-    <Helmet title={title} defaultTitle={seo.title} titleTemplate={`%s | ${defaultTitle}`}>
+    <Helmet title="Akash Kundu" defaultTitle={seo.title} titleTemplate={`%s`}>
       <html lang="en" />
 
-      <meta name="description" content={seo.description} />
+      <meta name="description" content="Hi, my name is Akash Kundu. I am a school student and occasionally designing websites, applications, and everything in between. I do developer friendly code which is very too easy to understand and customized it as per needs." />
       <meta name="image" content={seo.image} />
 
       <meta property="og:title" content={seo.title} />
