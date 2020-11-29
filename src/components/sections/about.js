@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "icon.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "logo.png" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
