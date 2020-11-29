@@ -45,7 +45,7 @@ const Head = ({ title, description, image }) => {
       <html lang="en" />
 
       <meta name="description" content="Hi, my name is Akash Kundu. I am a school student and occasionally designing websites, applications, and everything in between. I do developer friendly code which is very too easy to understand and customized it as per needs." />
-      <meta name="image" content={seo.image} />
+      <meta name="image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.storystellus.com%2F2019%2F03%2Fwhat-is-html-and-css-somethings-you.html&psig=AOvVaw31f-DGgxxAlBim5CBx2MXn&ust=1606724243304000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjG_r-pp-0CFQAAAAAdAAAAABAD" />
 
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
